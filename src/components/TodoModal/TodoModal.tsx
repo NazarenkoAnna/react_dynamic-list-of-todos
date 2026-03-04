@@ -56,7 +56,7 @@ export const TodoModal: React.FC<Props> = ({ todo, handleCloseModal }) => {
                 <>
                   <strong className="has-text-success">Done</strong>
                   {' by '}
-                  <a href={`mailt:${user?.email}`}>{user?.name}</a>
+                  <a href={`mailto:${user?.email}`}>{user?.name}</a>
                 </>
               ) : (
                 <>
